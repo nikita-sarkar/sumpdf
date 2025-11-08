@@ -1,5 +1,6 @@
 package com.example.pdfsum.controller;
 
+import com.example.pdfsum.service.PDFService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
