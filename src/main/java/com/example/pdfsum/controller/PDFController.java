@@ -18,6 +18,6 @@ public class PDFController {
         @PostMapping("/upload")
         public ResponseEntity<?> uploadPDF(@RequestParam("file")MultipartFile file)
         {
-            return ResponseEntity.ok(PDFService.processPDF(file));
+            return ResponseEntity.ok(pdfService.processPDF(file));
         }
 }
